@@ -375,7 +375,7 @@ def main_window():
     global k_in
 
     window = tk.Tk()
-    window.title('Predicting Removal of Arsenic from Sorbents')
+    window.title('Predicting Removal of Pollutant from Sorbents')
     window.geometry('450x300+400+200')
     var_order = tk.StringVar()
     var_order.set(1)
